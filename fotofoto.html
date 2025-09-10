@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Foto-Foto Kegiatan</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+    .gallery div {
+      text-align: center;
+    }
+    .gallery img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="images/cover.jpg" alt="Header" width="100%">
+  </div>
+  <div class="container">
+    <div class="sidebar">
+      <img src="images/lapangan.gif" alt="Gedung">
+      <a href="index.html">Index</a>
+      <a href="fasilitas.html">Fasilitas</a>
+      <a href="fotofoto.html">Foto-foto</a>
+      <a href="kontak.html">Kontak</a>
+       <video width="180" controls>
+        <source src="images/marsmadrasah.mp4" type="video/mp4">
+      </video>
+      <p>Mars Madrasah</p>
+    </div>
+    <div class="content">
+      <h2>Foto-Foto Kegiatan</h2>
+      <div class="gallery">
+        <div><img src="images/biologi.png"><p>Praktik Biologi</p></div>
+        <div><img src="images/kimia.png"><p>Praktik Kimia</p></div>
+        <div><img src="images/komputer.png"><p>Lab Komputer</p></div>
+        <div><img src="images/bahasa.png"><p>Lab Bahasa</p></div>
+        <div><img src="images/perpus.png"><p>Perpustakaan</p></div>
+        <div><img src="images/ekskul.png"><p>Ekstrakurikuler</p></div>
+        <div><img src="images/keputrian.png"><p>Keputrian</p></div>
+        <div><img src="images/basket.png"><p>Olahraga</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">created by name</div>
+</body>
+</html>
